@@ -1,6 +1,6 @@
 {
   "name": "react_ui_components",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "main": "dist/index.umd.js",
@@ -17,6 +17,9 @@
     },
     "./package.json": "./package.json",
     "./dist/*": "./dist/*"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "dev": "vite",
